@@ -1,0 +1,8 @@
+sns.violinplot(y='class', x='sepal-lenght', data=dataset, inner='quartile')
+plt.show()
+sns.violinplot(y='class', x='sepal-width', data=dataset, inner='quartile')
+plt.show()
+sns.violinplot(y='class', x='petal-lenght', data=dataset, inner='quartile')
+plt.show()
+sns.violinplot(y='class', x='petal-width', data=dataset, inner='quartile')
+plt.show()
